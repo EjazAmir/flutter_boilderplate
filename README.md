@@ -1,5 +1,5 @@
 
-# Flutter GetX Template
+# Flutter Boiler plate code
 
 Flutter Getx template to make starting project fast and easy
 .
@@ -381,4 +381,4 @@ GetBuilder<HomeController>(
 
 ## Support
 
-For support, email emadbeltaje@gmail.com or Facebook [Emad Beltaje](https://www.facebook.com/EmadBeltaje/).
+For support, email ejazaamir2013@gmail.com
