@@ -7,14 +7,15 @@ Flutter Getx template to make starting project fast and easy
 ## Introduction
 
 We all face the same problem when we want to start a new project we have to take care of some repeatable things such as
-- Theme (light/dark) & store current theme in shared pref 🌒
-- Localization & store the current locale in shared pref 🅰️
-- Firebase Messaging 📨
-- Notifications setup 🔔
-- Safe api requests & error handling 🔏
-- Changing between widgets during api call (loading,success,failed..etc) 😴
-- Snackbar,Toasts & in app notifications 🪖
-- Making app more responsive and stop font scaling ⚖️
+- Theme (light/dark) & store current theme in shared pref 
+- Localization & store the current locale in shared pref
+- Firebase Messaging 
+- Notifications setup 
+- Safe api requests & error handling 
+- Changing between widgets during api call (loading,success,failed..etc) 
+- Snackbar,Toasts & in app notifications 
+- Making app more responsive and stop font scaling ⚖
+
   This project will take care of all this repeatable things so you can start your project in few steps and you will have all the mentioned points set up and ready to use 😎
 
 ## Acknowledgment
@@ -42,6 +43,7 @@ Before discovering folders lets first perform some actions to make the project r
       designSize: const Size(375, 812), // change this to your xd artboard size
     ```
 - FCM & Awesome Notifications are combined at the same class so when ever you connect your app to firebase your app will be ready to receive notifications you don't need to do anything except sending fcm notification to your api via implementing the method (sendFcmTokenToServer) which is inside FcmHelper class 😎
+
     ```dart
     static _sendFcmTokenToServer(){
         var token = MySharedPref.getFcmToken();
@@ -69,6 +71,7 @@ Before discovering folders lets first perform some actions to make the project r
     flutterfire configure --project=flutter-firebase-YOUR_PROJECT_ID
     ```
   and that's it! your project is now connected to firebase and fcm is up and ready to get notifications
+  
 ## Quick Start
 - Responsive app: to make your app responsive you need to get advantage of using flutter_ScreenUtil so instead of using normal double values for height,width,radius..etc you need to use it like this
 -
